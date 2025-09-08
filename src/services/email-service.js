@@ -1,6 +1,5 @@
 const {TicketRepository} = require('../repositories');
 const { MAILER } = require('../config');
-const { get } = require('../routes');
 
 const ticketRepo= new TicketRepository();
 
